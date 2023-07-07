@@ -1,0 +1,146 @@
+/*
+BODY SETTINGS
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+/* 
+    MAIN ELEMENT 
+*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 27.8em;
+    width: 37em;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/*
+    SIDES
+*/
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em
+}
+
+/* RIGHT SIDE ELEMENTS */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+
+    color: hsl(228, 12%, 48%);
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+
+    line-height: 2rem;
+
+    color: #20272D;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    line-height: 1.4rem;
+
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+
+
+    color: hsl(158, 36%, 37%);
+}
+
+.price span {
+    color: hsl(228, 12%, 48%);
+
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 500;
+    font-size: 13px;
+
+    text-decoration: line-through;
+
+    display: inline-block;
+    transform: translateY(-0.4rem) translateX(1rem);
+}
+
+.cart {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+
+    padding: 0.9em;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart:hover {
+    background-color: #194031;
+}
+
+.cart img {
+    transform: translateY(3px) translateX(-5px);
+}
+
+
+/* 
+    FOOTER 
+*/
+
+footer { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 11px; 
+    text-align: center; 
+}
+footer a {
+    color: hsl(228, 45%, 44%); 
+}
+
+/* 
+    MEDIA QUERIES
+*/
+
+@media(max-width:600px) {
+    main {
+        grid-template-columns: 1fr;
+        height: 40em;
+        width: 23em;
+    }
+    .left-side {
+        height: 10em;
+    }
+}
