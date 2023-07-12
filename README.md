@@ -9,4 +9,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/product-preview-card-component-solution-grid-and-flexbox-responsive-4JBgpyXTQ_
-- Live Site URL: https://unkookerinho.github.io/product-preview-card-component-solution/
+- Live Site URL: https://unkookerinho.github.io/Product-preview-card-component-solution/
